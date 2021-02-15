@@ -1,0 +1,31 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+
+/* Don't move  */
+
+@import "reset.css";
+@import "variable.css";
+
+/* Components */
+@import "components/nav-bar.css";
+@import "components/status_bar.css";
+@import "components/screen-header.css";
+@import "components/user-components.css";
+@import "components/music_nav.css";
+@import "components/player.css";
+@import "components/badge.css";
+@import "components/icon-raw.css";
+@import "components/no-mobile.css";
+
+/* Screens */
+@import "screens/music__play.css";
+@import "screens/friends.css";
+@import "screens/play__list.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+
+body {
+  font-family: "Rubik", sans-serif;
+  height: 1000vh;
+  background-image: linear-gradient(to right, #9bdae6, #5cbacc);
+}

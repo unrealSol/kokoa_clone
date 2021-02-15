@@ -1,0 +1,41 @@
+.status__bar {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 2px 4px;
+}
+
+.status-bar__columnA,
+.status-bar__columnB,
+.status-bar__columnC {
+  width: 33.3%;
+}
+
+.status-bar__columnA {
+  display: flex;
+  align-items: center;
+}
+
+.status-bar__columnA span {
+  margin: 0 4px;
+}
+
+.status-bar__columnB {
+  display: flex;
+  justify-content: center;
+}
+
+.status-bar__columnC {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.status-bar__columnC i {
+  margin-left: 4px;
+}

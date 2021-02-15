@@ -1,0 +1,74 @@
+.user-components,
+.user-components__column {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+}
+
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+}
+
+.user-component__title {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.user-componet__info {
+  color: rgb(0, 0, 0, 0.4);
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.user-component__smText span {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.user-components__column:last-child {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.add__user {
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+/* chat */
+
+.chat-column__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/* more__notice */
+
+.more__notice {
+  display: flex;
+  margin: 30px 0;
+}
+
+.more__notice .more-notice__title {
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.more__notice .more-notice__text {
+  color: rgb(0, 0, 0, 0.4);
+}

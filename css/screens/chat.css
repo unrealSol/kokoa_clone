@@ -1,0 +1,43 @@
+#chat-screen {
+  height: 1000vh;
+}
+.chat {
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+.screenChat-header {
+  position: fixed;
+  top: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 40px 0;
+}
+
+.screen-header__column a,
+.screen-header__column h1,
+.screen-header__column div {
+  width: 33.3%;
+}
+
+.screen-header__column {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.screen-header__column :first-child {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.screen-header__column :last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.chat__text {
+  display: flex;
+  bottom: -150px;
+  position: relative;
+}

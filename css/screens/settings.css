@@ -1,0 +1,32 @@
+.settings__screens {
+  padding: 0 25px;
+}
+
+.main__settings {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 20px 0;
+}
+
+.main__settings .main-settings__item {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.etc__settings {
+  padding: 20px 0;
+}
+
+.main-settings__item-info {
+  opacity: 0.5;
+}
+
+.etc__settings {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}

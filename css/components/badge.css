@@ -1,0 +1,25 @@
+.nav .nav__btn .nav__notification {
+  background-color: #ff632d;
+  color: var(--white-color);
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  left: 20px;
+  top: -5px;
+}
+
+.badge-notification {
+  background-color: #ff632d;
+  color: var(--white-color);
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-top: 5px;
+}
